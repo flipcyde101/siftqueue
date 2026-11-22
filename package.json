@@ -1,0 +1,27 @@
+{
+  "name": "siftqueue",
+  "version": "0.1.0",
+  "description": "Local SQLite-backed batch queue for triaging, cloning, and tracking GitHub issue fixes.",
+  "type": "module",
+  "bin": {
+    "siftqueue": "./bin/siftqueue.js"
+  },
+  "exports": {
+    ".": "./src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "keywords": [
+    "cli",
+    "github",
+    "issues",
+    "queue",
+    "sqlite",
+    "triage"
+  ],
+  "license": "MIT"
+}
